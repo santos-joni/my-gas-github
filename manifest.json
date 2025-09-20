@@ -1,10 +1,10 @@
 {
-  "version": "5.1.0",
+  "version": "5.1.2",
   "manifest_version": 3,
   "default_locale": "en",
   "name": "__MSG_appName__",
-  "short_name": "gas-github",
-  "author": "leonhartx.k@gmail.com",
+  "short_name": "my-gas-github",
+  "author": "santos.joni@gmail.com",
   "description": "__MSG_appDesc__",
   "icons": {
     "16": "icon/icon.png",
