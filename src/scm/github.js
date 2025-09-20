@@ -145,6 +145,7 @@ class Github {
       })
       .catch(err => {
         showLog(`Failed to push: ${err}`, LEVEL_ERROR);
+        showLog(`Failed to push: ${JSON.stringify(err)}`, LEVEL_ERROR);
       });
   }
 
@@ -184,6 +185,7 @@ class Github {
       })
       .fail(err => {
         showLog(`Failed to update: ${err}`, LEVEL_ERROR);
+        showLog(`Failed to update: ${JSON.stringify(err)}`, LEVEL_ERROR);
       });
   }
 
@@ -336,6 +338,7 @@ class Github {
       })
       .catch((err) => {
         showLog(`Failed to get user info: ${err}`, LEVEL_ERROR);
+        showLog(`Failed to get user info: ${JSON.stringify(err)}`, LEVEL_ERROR);
       });
   }
 
